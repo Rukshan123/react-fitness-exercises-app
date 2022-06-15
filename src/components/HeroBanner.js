@@ -17,16 +17,16 @@ const HeroBanner = () => {
    <Typography fontWeight={700}
     sx={{ fontSize: { lg: '44px', xs: '40px' } }}
     mb='23px'
-    mt='30px'
+    mt='35px'
    >
     Sweat, smile <br /> and repeat
    </Typography>
 
-   <Typography fontSize='22px' lineHeight='35px' mb={5}>
+   <Typography fontSize='22px' lineHeight='35px' sx={{ marginBottom:{lg:8 , xs:5} }}>
     Check out the most effective exercises
    </Typography>
 
-   <Button sx={{ backgroundColor: '#ff2625', padding: '10px' }} variant='contained' color='error' href='#exercises'>Explore Exercises</Button>
+   <Button sx={{ backgroundColor: '#ff2625', padding: '10px', marginBottom: { lg: 18, xs: 5 }}} variant='contained' color='error' href='#exercises'>Explore Exercises</Button>
    <Typography
     fontWeight={600}
     color='#ff2625'
